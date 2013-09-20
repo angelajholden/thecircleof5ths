@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'AJH';
+    src:url('../fonts/AJH.eot');
+    src:url('../fonts/AJH.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AJH.woff') format('woff'),
+        url('../fonts/AJH.ttf') format('truetype'),
+        url('../fonts/AJH.svg#AJH') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*Start TCO5 Styles*/
+body {
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+    line-height: 1.4;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+header {
+    background-color: #2b5c7a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 100000;
+    width: 100%;
+    -moz-box-shadow: 0 1px 3px 0 #000;
+    -webkit-box-shadow: 0 1px 3px 0 #000;
+    box-shadow: 0 1px 3px 0 #000;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 6em;
+    font-weight: 100 !important;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1em;
+}
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0.3em;
+}
+p {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.25em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin-bottom: 1em;
+}
+a {
+    color: #2b5c7a;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
+sup {
+    font-size: 0.5em;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.7em;
+    margin-left: .25em;
+}
+section {
+    padding: 23em 5em 17em;
+    overflow: auto;
+}
+article {
+    width: 90%;
+    margin: 0 auto;
+}
+article img {
+    float: left;
+    max-width: 100%;
+    margin: 0 1em 1em 0;
+}
+article ul {
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+article li {
+    line-height: 1.6;
+}
+article ol {
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    list-style-type: decimal;
+}
+.key-sig {
+    display: inline-block;
+    padding: 0.5em 2em 1em 0;
+}
+#page-one {
+    background-color: #999571;
+}
+#page-two {
+    background-color: #73494e;
+}
+#page-three {
+    background-color: #e8644c;
+}
+#page-four {
+    background-color: #516b5f;
+}
+#page-five {
+    background-color: #999571;
+}
+#page-six {
+    background-color: #e8644c;
+}
+.cof-45 {
+    width: 48%;
+}
+.cof-lft {
+    float: left;
+    margin-right: 1%;
+}
+.cof-rgt {
+    float: right;
+    margin-left: 1%;
+}
+.cof-box {
+    padding: 0;
+    overflow: auto;
+}
+.cof-align {
+    text-align: center;
+    font-size: 1.5em;
+}
+footer {
+    background-color: #73494e;
+    padding: 2em 0;
+    text-align: center;
+}
+/*Codrops Sonar Font Icon Effect*/
+.ajh-icon-wrap {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3em 3em;
+}
+.ajh-icon {
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9375rem;
+    font-weight: 400 !important;
+    line-height: 1.5;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.ajh-icon:hover {
+    opacity: 0.6;
+}
+.ajh-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: "";
+    -webkit-box-sizing: content-box; 
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+.ajh-icon:before {
+    font-family: 'AJH';
+    speak: none;
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+.ajh-icon-link:before {
+    content: "\e001";
+}
+.ajh-icon-cake:before {
+    content: "\e004";
+}
+.ajh-icon-envelope:before {
+    content: "\2709";
+}
+.ajh-icon-heart:before {
+    content: "\2665";
+}
+.ajh-icon-edit:before {
+    content: "\e006";
+}
+.ajh-icon-music:before {
+    content: "\266b";
+}
+.ajh-icon-anchor:before {
+    content: "\e007";
+}
+.ajh-icon-graduate:before {
+    content: "\e005";
+}
+.ajh-icon-piano:before {
+    content: "\e003";
+}
+.ajh-icon-key:before {
+    content: "\e002";
+}
+/* Effect 8 */
+.ajh-icon-effect-8 .ajh-icon {
+    background: rgba(255,255,255,0.15);
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+    transition: transform ease-out 0.1s, background 0.2s;
+}
+.ajh-icon-effect-8 .ajh-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.1);
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.no-touch .ajh-icon-effect-8 .ajh-icon:hover {
+    background: rgba(255,255,255,0.05);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    color: #fff;
+}
+.ajh-icon-effect-8 .ajh-icon:hover:after {
+    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect 1.3s ease-out 75ms;
+    animation: sonarEffect 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #2b5c7a, 0 0 0 10px rgba(255,255,255,0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #2b5c7a, 0 0 0 10px rgba(255,255,255,0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #2b5c7a, 0 0 0 10px rgba(255,255,255,0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #2b5c7a, 0 0 0 10px rgba(255,255,255,0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #2b5c7a, 0 0 0 10px rgba(255,255,255,0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #2b5c7a, 0 0 0 10px rgba(255,255,255,0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+/*End Codrops Sonar Font Icon Effect*/
+
+/*Remove the gap between images and the bottom of their containers: h5bp.com/i/440*/
+img {
+    vertical-align: middle;
+}
