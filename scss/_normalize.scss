@@ -1,0 +1,77 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+/* Typography
+*********************************************
+*/
+h1 {
+  font-size: 100px;
+  margin: 2.5% 0;
+  line-height: 1;
+  font-weight: 100;
+  text-align: center;
+}
+h2 {
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 300;
+}
+p {
+  font-family: "Roboto Slab", serif;
+}
+a {
+    background: transparent;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+blockquote {
+
+}
+b,
+strong {
+    font-weight: bold;
+}
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+small {
+    font-size: 80%;
+}
+sub,
+sup {
+    font-size: 45%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -1em;
+    padding-left: 5px;
+}
+sub {
+    bottom: -0.25em;
+}
+img {
+    border: 0;
+}
